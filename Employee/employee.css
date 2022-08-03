@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url(../img/mountain.jpg) no-repeat center center fixed;
+    background-size: cover;
+    width: 100%;
+}
+
+.d-flex button {
+    margin: 1.5em 0.6em;
+    padding: 0.5em 2.4em;
+}
+
+.d-flex table {
+    margin: 1em 10em;
+    color: white;
+}
+
+table .btnedit {
+    color: #27c2a5;
+    cursor: pointer;
+}
+
+.container {
+    color: white;
+    margin-top: 30px;
+    background-color: #3b4652;
+    justify-content: center;
+    border-radius: 10px;
+}

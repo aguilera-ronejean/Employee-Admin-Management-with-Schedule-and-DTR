@@ -1,0 +1,96 @@
+                @import url('https://fonts.googleapis.com/css?family=Roboto');
+            body {
+                font-family: 'Robot', sans-serif;
+                background: url(../img/mountain.jpg) no-repeat center center fixed;
+                background-size: cover;
+            }
+            
+            .main-section {
+                margin: 0 auto;
+                margin-top: 50px;
+                padding: 20;
+            }
+            
+            .modal-content {
+                font-family: 'Roboto', sans-serif;
+                color: white;
+                background-color: #3b4652;
+                opacity: 0.95;
+                padding: 0 50px;
+                box-shadow: 0px 0px 3px #848484;
+                letter-spacing: 2px;
+                font-weight: bolder;
+            }
+            
+            .user-image {
+                margin-top: 50px;
+                margin-bottom: 100px;
+            }
+            
+            .user-img img {
+                height: 100px;
+                width: 100px;
+                margin-bottom: 35px;
+                margin-top: 20px;
+                border-radius: 5px;
+                box-shadow: 0px 0px 3px #848484;
+            }
+            
+            .form-group {
+                margin-bottom: 25px;
+            }
+            
+            .form-group input {
+                margin-bottom: 25px;
+                height: 42px;
+                border-radius: 5px;
+                border: 0;
+                font-size: 18px;
+                padding-left: 54px;
+            }
+            
+            .form-group::before {
+                font-family: 'Font Awesome\ 5 Free';
+                content: "\f007";
+                position: absolute;
+                font-size: 22px;
+                color: #555e60;
+                margin-top: 5px;
+                left: 60px;
+            }
+            
+            .form-group:last-of-type::before {
+                content: "\f023";
+            }
+            
+            button {
+                width: 25%;
+                margin: 5px 0 25px;
+            }
+            
+            .btn {
+                background-color: #27c2a5;
+                color: #fff;
+                font-size: 19px;
+                padding: 7px 14px;
+                border-radius: 5px;
+                border-bottom: 4px solid #219882;
+                margin-bottom: 25px;
+                margin-left: 0%;
+            }
+            
+            .btn:hover,
+            .btn:focus {
+                background-color: #25a890;
+                border-bottom: 4px solid #25a890!important;
+            }
+            
+            .svg-inline--fa {
+                font-size: 20px;
+                margin-right: 7px;
+            }
+            
+            @media screen and (max-width: 1024px) {
+                button {
+                    width: 25%;
+                }
